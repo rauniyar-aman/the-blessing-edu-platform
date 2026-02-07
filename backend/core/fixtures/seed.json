@@ -1,0 +1,112 @@
+[
+  {
+    "model": "core.pipeline",
+    "pk": 1,
+    "fields": {"country": "UK", "name": "UK Pipeline"}
+  },
+  {
+    "model": "core.pipeline",
+    "pk": 2,
+    "fields": {"country": "USA", "name": "USA Pipeline"}
+  },
+  {
+    "model": "core.pipelinestage",
+    "pk": 1,
+    "fields": {"pipeline": 1, "name": "Applied", "order": 1}
+  },
+  {
+    "model": "core.pipelinestage",
+    "pk": 2,
+    "fields": {"pipeline": 1, "name": "Offer", "order": 2}
+  },
+  {
+    "model": "core.pipelinestage",
+    "pk": 3,
+    "fields": {"pipeline": 2, "name": "Applied", "order": 1}
+  },
+  {
+    "model": "core.pipelinestage",
+    "pk": 4,
+    "fields": {"pipeline": 2, "name": "Offer", "order": 2}
+  },
+  {
+    "model": "core.university",
+    "pk": 1,
+    "fields": {"name": "London Global University", "country": "UK"}
+  },
+  {
+    "model": "core.university",
+    "pk": 2,
+    "fields": {"name": "California Tech College", "country": "USA"}
+  },
+  {
+    "model": "core.program",
+    "pk": 1,
+    "fields": {"university": 1, "name": "BSc Computer Science", "level": "BACHELOR", "tuition_fee": "12000.00"}
+  },
+  {
+    "model": "core.program",
+    "pk": 2,
+    "fields": {"university": 2, "name": "MS Data Science", "level": "MASTER", "tuition_fee": "24000.00"}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 1,
+    "fields": {"name": "Passport", "level": "ALL", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 2,
+    "fields": {"name": "Grade 10 Documents", "level": "BACHELOR", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 3,
+    "fields": {"name": "Grade 11 Documents", "level": "BACHELOR", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 4,
+    "fields": {"name": "Grade 12 Documents", "level": "BACHELOR", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 5,
+    "fields": {"name": "Bachelor Documents", "level": "MASTER", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 6,
+    "fields": {"name": "Master Documents", "level": "PHD", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 7,
+    "fields": {"name": "LORs", "level": "ALL", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 8,
+    "fields": {"name": "English Proficiency/MOI Letter", "level": "ALL", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 9,
+    "fields": {"name": "CV", "level": "ALL", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 10,
+    "fields": {"name": "SOP", "level": "ALL", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 11,
+    "fields": {"name": "Work experience", "level": "ALL", "is_custom": false}
+  },
+  {
+    "model": "core.documentcategory",
+    "pk": 12,
+    "fields": {"name": "Additional Documents", "level": "ALL", "is_custom": false}
+  }
+]
